@@ -1,0 +1,91 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fondo de la página en un color claro */
+}
+
+header {
+    background-color: #ffcccb; /* Color pastel para el fondo */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 150px; /* Altura del header */
+    box-shadow: 0 4px 2px -2px gray; /* Sombra opcional para el header */
+    background-image: url(img/banner\ panaderia.jpg);
+    background-size: cover; /* Asegura que la imagen cubra todo el área del header */
+    background-position: center; /* Centra la imagen */
+    color: white; /* Color del texto para que sea legible sobre la imagen */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 20px;
+}
+
+.titulo-principal{
+
+
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Tamaño de la fuente */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fondo de la página en un color claro */
+}
+
+/* Estilos para la galería */
+.imagenes {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas si es necesario */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    padding: 20px;
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+/* Estilos para cada elemento de la galería */
+.imagenes-item {
+    background-color: #ffffff; /* Fondo blanco para los recuadros */
+    border: 1px solid #ddd; /* Borde ligero alrededor de cada recuadro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    text-align: center; /* Centra el texto de la etiqueta */
+    width: 200px; /* Ancho fijo para los recuadros */
+    padding: 10px;
+    border-radius: 8px; /* Esquinas redondeadas */
+}
+
+.imagenes-item img {
+    max-width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-bottom: 1px solid #ddd; /* Línea divisoria entre la imagen y la etiqueta */
+    margin-bottom: 10px; /* Espacio entre la imagen y la etiqueta */
+}
+
+.imagenes-item p {
+    margin: 0;
+    color: #333; /* Color del texto de la etiqueta */
+    font-size: 1em; /* Tamaño de la fuente */
+}
+
+.imagenes-item:hover {
+    transform: scale(1.1); /* Agranda la imagen al 110% */
+}
+
+
+
+/*CSS PARA LO SALAADO AAA*/
+.salado{
+
+    background-color: rgb(255, 60, 0); /* Color pastel para el fondo */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 150px; /* Altura del header */
+    box-shadow: 0 4px 2px -2px gray; /* Sombra opcional para el header */
+
+}
