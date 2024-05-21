@@ -21,9 +21,46 @@ header {
     text-align: center; /* Centra el texto horizontalmente */
     padding: 20px;
 }
+header .nav-list li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #007BFF;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
 
-.titulo-principal{
+header .nav-list li a:hover{
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+}
 
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+   
+}
+
+
+header .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+
+}
+.pie{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
 
 }
 
